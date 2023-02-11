@@ -1,3 +1,92 @@
-p{
-    color: cadetblue;
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+    display: flex;
+}
+
+.ban-img{
+    margin-left: 150px;
+    width: 50%;
+}
+
+.ban-text{
+    margin-top: 300px;
+    margin-right: 300px;
+}
+
+.ban-text h1{
+    font-weight: 900;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.ban-text p{
+    color: gray;
+}
+
+.btn{
+    border: none;
+    font-size: large;
+    padding: 15px 30px;
+    color: white;
+    background-color:chocolate;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+}
+
+.main-img{
+    margin-left: 150px;
+}
+
+.main-text{
+    margin: 300px;
+}
+
+.main-text h1{
+    font-weight: 900;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.main-text p{
+    margin: 30px;
+    color: gray;
+}
+
+.olo li{
+    margin-top: 5px;
+}
+
+.plans{
+    text-align: center;
+    font-size: 60px;
+}
+
+.section{
+    display: flex;
+}
+
+.section div{
+    margin: 150px;
+}
+
+.watch{
+    margin: 0 400px;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.footer div{
+    margin: 200px;
 }
